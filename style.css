@@ -1,0 +1,82 @@
+body {
+    align-content: center;
+    margin: 50px;
+  }
+  div {
+    background-color: #696969;
+    border-radius: 10px;
+    height: 370px;
+    margin-bottom: 20px;
+  }
+  .intro-paragraph1 {
+    font-family: courier;
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 35px;
+    font-size: 30px;
+    padding-top: 35px;
+    padding-left: 20px;
+  }
+  .intro-paragraph2 {
+    font-family: courier;
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 35px;
+    font-size: 30px;
+    padding-top: 35px;
+    padding-left: 20px;
+  }
+  .intro-paragraph3 {
+    font-family: courier;
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 35px;
+    font-size: 30px;
+    padding-top: 35px;
+    padding-left: 20px;
+  }
+  .main-header {
+    text-align: center;
+    color: #B22222;
+    text-shadow: 1px 1px 1px black;
+    font-family: arial;
+    font-size: 110px;
+    margin-bottom: -35px;
+    font-weight: bold;
+  }
+  button {
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    height: 5%;
+    background-color: #B22222;
+    border-radius: 50px;
+    transition: .5s;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+  button:hover {
+    background-color: #696969;
+    color: white;
+    transition: .5s;
+  }
+  header::before, header::after {
+    content: '★';
+  }
+  p::after {
+    content: '”';
+  }
+  p::before {
+    content: '“';
+  }
+  button::before {
+    content: '👉🏻';
+  }
+  button::after {
+    content: '👈🏻';
+  }
